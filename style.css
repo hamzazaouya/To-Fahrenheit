@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #ff7171
+}
+
+.box {
+    margin-top: 4rem;
+    height: 500px;
+    width: 350px;
+    border: 2px solid #FFF;
+    border-radius: 2rem;
+    padding: 1rem;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, .2),
+                -10px -10px 30px rgba(255, 255, 255, .6),
+                5px 5px 20px rgba(0, 0, 0, .2) inset,
+                -5px -5px 20px rgba(255, 255, 255, .6) inset;
+}
+
+.box h1 {
+    text-align: center;
+    margin: 1rem 0;
+    color: #FFF;
+    font-size: 1.7rem;
+}
+
+.box p {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+#f_value {
+    height: 2rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border: 2px solid #FFF;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #FFF;
+    background: none;
+}
+
+.box button {
+    height: 3rem;
+    width: 7rem;
+    text-transform: capitalize;
+    outline: none;
+    background:none;
+    border: 2px solid #FFF;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.demo {
+    margin-top: 2rem;
+    height: 200px;
+    width: 300px;
+    border: 1px solid #FFF;
+    padding: 1rem;
+    color: #FFF;
+}
+
+sup {
+    font-size: .6rem;
+}
